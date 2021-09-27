@@ -3,7 +3,7 @@ import React from 'react'
 export default (props) => {
   return (
     <div className="Contador">
-      <label for="passoInput">Valor: </label>
+      <label htmlFor="passoInput">Valor: </label>
       {/* + na frente para garantir que o valor vai ser numérico */}
       <input id="passoInput" type="number"
         value={props.passo} 
